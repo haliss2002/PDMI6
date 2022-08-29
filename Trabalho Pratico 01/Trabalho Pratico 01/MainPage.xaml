@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Trabalho_Pratico_01.MainPage">
+
+    <AbsoluteLayout>
+        <Label Text="Aplicação"
+           Font="30"
+           AbsoluteLayout.LayoutBounds="100,20,200,100" />
+        <Label Text="Teste"
+           Font="30"
+           AbsoluteLayout.LayoutBounds="240,20,200,100" />
+        <Label Text="ID:"
+           Font="20"
+           AbsoluteLayout.LayoutBounds="40,80,200,60" />
+        <Entry 
+           x:Name="id"
+           FontSize="10"
+           AbsoluteLayout.LayoutBounds="70,80,300,35"
+            />
+        <Label Text="PASS:"
+           Font="20"
+           AbsoluteLayout.LayoutBounds="20,120,200,60" />
+        <Entry 
+           x:Name="senha"
+           FontSize="10"
+           AbsoluteLayout.LayoutBounds="70,120,300,35" />
+        <Button Text="OK" AbsoluteLayout.LayoutBounds="45,170,300,35" TextColor="Red" Clicked="Button_Clicked"/>
+        <Button Text="Limpar" AbsoluteLayout.LayoutBounds="45,220,300,35" TextColor="Red" Clicked="Button_Clicked_1"/>
+        <Button Text="Créditos" AbsoluteLayout.LayoutBounds="45,270,300,35" TextColor="Red" Clicked ="Button_Clicked_2"/>
+        <Label x:Name="Creditos" 
+           Font="20"
+           TextColor="Pink"
+           AbsoluteLayout.LayoutBounds="45,320,200,90" />
+    </AbsoluteLayout>
+
+</ContentPage>
